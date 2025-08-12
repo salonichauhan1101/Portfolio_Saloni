@@ -14,16 +14,17 @@ const Home = () => {
           <h4 className="text-6xl sm:text-4xl font-bold text-white">
             Full Stack Developer | Cloud Engineer | Machine Learning Enthusiast
           </h4>
+          <br/>
           <p className="text-gray-500 py-4 max-w-md">
-            I specialize in building scalable, high-performance applications and delivering data-driven solutions. With over 3 years of professional experience and a Master’s in Computer Science (in progress) from Northeastern University, I bring expertise in Java, Python, SQL, and modern web technologies like React, Node.js, and Tailwind CSS — all backed by strong cloud skills in AWS and Azure.
-          </p>
+  I build scalable web applications and optimize cloud infrastructure, blending expertise in modern web technologies with strong cloud and data skills.
+          <br/><br/></p>
 
           <div>
             <Link
               to="portfolio"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+className="group text-white border border-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-transparent hover:bg-white hover:text-black cursor-pointer"
             >
               View my work
               <span className="group-hover:rotate-90 duration-300">
