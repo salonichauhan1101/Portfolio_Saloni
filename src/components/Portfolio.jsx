@@ -82,7 +82,7 @@ const projects = [
     tech: ["React", "Node.js", "Redux", "Netlify"],
     //img: kanbas,
     //demo: "https://your-kanbas-demo.vercel.app",
-    code: "https://github.com/salonichauhan1101/kanbas",
+    code: "https://github.com/salonichauhan1101/kanbas-react-web-app",
   },
   {
     id: 2,
@@ -91,7 +91,7 @@ const projects = [
     tech: ["Python", "Pandas", "XGBoost", "SHAP"],
     //img: attrition,
     //demo: "https://your-attrition-demo.vercel.app", // optional
-    code: "https://github.com/salonichauhan1101/employee-attrition-ml",
+    code: "https://github.com/salonichauhan1101/Employee_Attrition_Prediction",
   },
   {
     id: 3,
