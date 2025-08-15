@@ -62,7 +62,7 @@ const Home = () => {
       <div className="max-w-6xl mx-auto px-6 md:px-8 py-20 md:py-28 grid md:grid-cols-2 gap-10 items-center">
         {/* Left: Copy */}
         <div>
-          <h2 className="text-xl md:text-xl lg:text-xl font-bold tracking-tight mb-4">
+          <h2 className="text-4xl md:text-4xl lg:text-4xl font-bold tracking-tight mb-4">
             <span className="bg-gradient-to-r from-indigo-300 via-purple-300 to-pink-300 bg-clip-text text-transparent">
               • Full Stack Developer <br/>• Cloud Engineer<br/> • ML Enthusiast
             </span>

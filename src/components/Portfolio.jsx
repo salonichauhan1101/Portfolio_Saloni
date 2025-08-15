@@ -6,6 +6,9 @@ import navbar from "../assets/portfolio/navbar.jpg";
 import reactParallax from "../assets/portfolio/reactParallax.jpg";
 import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
 import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import kanbas from "../assets/kanbas.png";
+import empatt from "../assets/empatt.png";
+import pred from "../assets/pred.png";
 
 /*const Portfolio = () => {
   const portfolios = [
@@ -80,7 +83,7 @@ const projects = [
     title: "Kanbas LMS",
     desc: "Interactive learning platform with React + Node, auth, and state mgmt.",
     tech: ["React", "Node.js", "Redux", "Netlify"],
-    //img: kanbas,
+    img: kanbas,
     //demo: "https://your-kanbas-demo.vercel.app",
     code: "https://github.com/salonichauhan1101/kanbas-react-web-app",
   },
@@ -89,7 +92,7 @@ const projects = [
     title: "Employee Attrition ML",
     desc: "92% accuracy using XGBoost, SHAP explainability, SMOTE balancing.",
     tech: ["Python", "Pandas", "XGBoost", "SHAP"],
-    //img: attrition,
+    img: empatt,
     //demo: "https://your-attrition-demo.vercel.app", // optional
     code: "https://github.com/salonichauhan1101/Employee_Attrition_Prediction",
   },
@@ -98,19 +101,11 @@ const projects = [
     title: "House Price Prediction",
     desc: "Regression pipeline + Flask UI for interactive predictions.",
     tech: ["Flask", "HTML/CSS", "JavaScript"],
-    //img: house,
+    img: pred,
     //demo: "https://your-houseprice-demo.vercel.app",
     code: "https://github.com/salonichauhan1101/house-price-prediction",
   },
-  {
-    id: 4,
-    title: "Investment Portfolio Simulator",
-    desc: "Java MVC app supporting DCA, rebalancing, and fixed-amount invests.",
-    tech: ["Java", "Swing", "MVC"],
-    //img: portfolioSim,
-    //demo: "", // no live demo yet
-    code: "https://github.com/salonichauhan1101/investment-portfolio-simulator",
-  },
+
 ];
 
 const Portfolio = () => {
@@ -140,7 +135,7 @@ const Portfolio = () => {
                 <img
                   src={img}
                   alt={title}
-                  className="w-full h-48 object-cover hover:scale-105 duration-300"
+                  className="w-full h-60 object-cover hover:scale-105 duration-300"
                 />
               </div>
 
