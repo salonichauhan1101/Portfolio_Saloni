@@ -1,4 +1,4 @@
-import React from "react";
+/*import React from "react";
 
 const Contact = () => {
   return (
@@ -49,4 +49,63 @@ const Contact = () => {
   );
 };
 
+export default Contact;*/
+
+import React from "react";
+import { FiMail, FiLinkedin, FiGithub } from "react-icons/fi";
+
+const Contact = () => {
+  return (
+    <div
+      name="contact"
+      className="w-full h-screen bg-gradient-to-b from-black to-gray-800 p-4 text-white"
+    >
+      <div className="flex flex-col p-4 justify-center max-w-screen-lg mx-auto h-full text-center">
+        <div className="pb-8">
+          <p className="text-4xl font-bold inline border-b-4 border-gray-500">
+            Contact
+          </p>
+          <p className="py-6">
+            I’d love to connect! Reach out through any of the links below.
+          </p>
+        </div>
+
+        <div className="flex flex-col sm:flex-row justify-center gap-6 mt-6">
+          {/* Email */}
+          <a
+            href="mailto:chauhan.sal@northeastern.edu"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 transition text-lg font-semibold"
+            aria-label="Email"
+          >
+            <FiMail /> Email
+          </a>
+
+          {/* LinkedIn */}
+          <a
+            href="https://www.linkedin.com/in/saloni-chauhan1101/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-white/20 hover:border-white/40 transition text-lg font-semibold"
+            aria-label="LinkedIn"
+          >
+            <FiLinkedin /> LinkedIn
+          </a>
+
+          {/* GitHub */}
+          <a
+            href="https://github.com/salonichauhan1101"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center justify-center gap-2 px-6 py-3 rounded-lg border border-white/20 hover:border-white/40 transition text-lg font-semibold"
+            aria-label="GitHub"
+          >
+            <FiGithub /> GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  );
+};
+
 export default Contact;
+
