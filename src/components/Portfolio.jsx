@@ -137,6 +137,7 @@ const Portfolio = () => {
                   alt={title}
                   className="w-full h-60 object-cover hover:scale-105 duration-300"
                 />
+
               </div>
 
               <div className="p-5 flex flex-col h-full">
