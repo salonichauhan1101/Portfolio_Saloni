@@ -179,7 +179,7 @@ import rlang from "../assets/rlang.jpeg";
 import springboot from "../assets/springboot.png";
 import node from "../assets/node.png";
 import express from "../assets/express.png";
-import aws from "../assets/aws.png";
+import aws from "../assets/aws.jpeg";
 import azure from "../assets/azure.jpeg";
 import docker from "../assets/docker.png";
 import kubernetes from "../assets/kubernetes.png";

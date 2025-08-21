@@ -66,8 +66,9 @@ const Contact = () => {
             Contact
           </p>
           <p className="py-6">
-            I’d love to connect! Reach out through any of the links below.
+            I’m actively seeking Full - Time opportunities in Software Development, Data Science, or Cloud Engineering.<br/> Let’s connect and explore how we can collaborate!
           </p>
+
         </div>
 
         <div className="flex flex-col sm:flex-row justify-center gap-6 mt-6">

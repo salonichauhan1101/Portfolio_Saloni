@@ -48,7 +48,7 @@ className="group text-white border border-white w-fit px-6 py-3 my-2 flex items-
 
 export default Home;*/
 
-import React from "react";
+/*import React from "react";
 import HeroImage from "../assets/heroImage.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
@@ -60,7 +60,7 @@ const Home = () => {
       className="w-full min-h-screen bg-gradient-to-b from-black via-gray-900 to-gray-800 text-white"
     >
       <div className="max-w-6xl mx-auto px-6 md:px-8 py-20 md:py-28 grid md:grid-cols-2 gap-10 items-center">
-        {/* Left: Copy */}
+
         <div>
           <h2 className="text-4xl md:text-4xl lg:text-4xl font-bold tracking-tight mb-4">
             <span className="bg-gradient-to-r from-indigo-300 via-purple-300 to-pink-300 bg-clip-text text-transparent">
@@ -74,7 +74,7 @@ const Home = () => {
             blending modern web tech with strong cloud and data skills.
           </p>
 
-          {/* CTAs */}
+
           <div className="mt-7 flex flex-wrap gap-4">
             <Link
               to="portfolio"
@@ -99,7 +99,7 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Right: Image in glass card */}
+
         <div className="order-first md:order-none flex justify-center">
           <div className="max-w-xs sm:max-w-sm md:max-w-md rounded-3xl border border-white/10 bg-white/5 backdrop-blur-sm p-2 shadow-lg hover:shadow-[0_0_30px_rgba(99,102,241,0.25)] hover:border-indigo-400/50 transition">
             <img
@@ -111,7 +111,92 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Optional scroll cue */}
+
+      <div className="flex justify-center pb-8 md:pb-12">
+        <Link
+          to="about"
+          smooth
+          duration={500}
+          className="text-white/60 hover:text-white/90 cursor-pointer"
+        >
+          <span className="inline-block animate-bounce">↓</span>
+        </Link>
+      </div>
+    </section>
+  );
+};
+
+export default Home;*/
+
+import React from "react";
+import HeroImage from "../assets/heroImage.png";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { Link } from "react-scroll";
+
+const Home = () => {
+  return (
+    <section
+      id="home"
+      className="w-full min-h-screen bg-gradient-to-b from-black via-gray-900 to-gray-800 text-white"
+    >
+      <div className="max-w-6xl mx-auto px-6 md:px-8 py-20 md:py-28 grid md:grid-cols-2 gap-10 items-center">
+        {/* Left */}
+        <div>
+          <h1 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 leading-tight">
+            <span className="bg-gradient-to-r from-indigo-300 via-purple-300 to-pink-300 bg-clip-text text-transparent">
+              • Full Stack Developer <br/>• Cloud Engineer<br/>• ML Enthusiast
+            </span>
+          </h1>
+
+          <p className="text-base md:text-lg text-white/85 leading-relaxed max-w-xl">
+            I build scalable web applications and optimize cloud infrastructure,
+            blending modern web tech with strong cloud and data skills.
+          </p>
+
+          {/* Metrics / impact line */}
+          <p className="mt-3 text-sm md:text-base text-white/70">
+            Built & optimized apps used by <span className="font-semibold">1,000+ users</span>;
+            reduced deployment times by <span className="font-semibold">40%</span> using CI/CD automation.
+          </p>
+
+          {/* CTAs */}
+          <div className="mt-7 flex flex-wrap gap-4">
+            <Link
+              to="portfolio"
+              smooth
+              duration={500}
+              className="group inline-flex items-center gap-2 rounded-xl px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 transition cursor-pointer"
+            >
+              View my work
+              <span className="group-hover:rotate-90 duration-300">
+                <MdOutlineKeyboardArrowRight size={22} />
+              </span>
+            </Link>
+
+            <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center rounded-xl px-6 py-3 bg-gradient-to-r from-indigo-500 to-purple-600 hover:from-indigo-400 hover:to-purple-500 transition"
+            >
+              Download résumé
+            </a>
+          </div>
+        </div>
+
+        {/* Right: image in glass card (kept smaller) */}
+        <div className="order-first md:order-none flex justify-center">
+          <div className="max-w-xs sm:max-w-sm md:max-w-md rounded-3xl border border-white/10 bg-white/5 backdrop-blur-sm p-2 shadow-lg hover:shadow-[0_0_30px_rgba(99,102,241,0.25)] hover:border-indigo-400/50 transition">
+            <img
+              src={HeroImage}
+              alt="Saloni Chauhan"
+              className="rounded-2xl w-full h-auto object-cover"
+            />
+          </div>
+        </div>
+      </div>
+
+
       <div className="flex justify-center pb-8 md:pb-12">
         <Link
           to="about"
@@ -127,4 +212,5 @@ const Home = () => {
 };
 
 export default Home;
+
 
